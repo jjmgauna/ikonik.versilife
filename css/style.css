@@ -1,0 +1,928 @@
+    @font-face {
+        font-family: 'NunitoSans-Regular';
+        src: url('../assets/fonts/NunitoSans-Regular.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+    
+    @font-face {
+        font-family: 'NunitoSans-Bold';
+        src: url('../assets/fonts/NunitoSans-Bold.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+    
+    @font-face {
+        font-family: 'NunitoSans-SemiBold';
+        src: url('../assets/fonts/NunitoSans-SemiBold.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+    
+    @font-face {
+        font-family: 'NunitoSans-ExtraBold';
+        src: url('../assets/fonts/NunitoSans-ExtraBold.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+    }
+    
+    body {
+        /*background-color: grey;*/
+        font-family: 'NunitoSans-Regular';
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .onlyMobile {
+        display: none;
+    }
+    
+    .onlyScreen {
+        display: block;
+    }
+    
+    header,
+    #section1,
+    #section2,
+    #section3,
+    #section4,
+    footer {
+        /*overflow: hidden;*/
+    }
+    
+    header {
+        overflow: hidden;
+        width: 100%!important;
+    }
+    
+    .imagenRecuadro {
+        position: fixed;
+        margin-top: 204px;
+        margin-left: 5%;
+        height: 430px;
+        width: 391px;
+        /*background-color: #0D2784;*/
+        background-color: rgba(13, 39, 128, 0.8);
+        border-radius: 14px;
+    }
+    
+    .imagenRecuadro img {
+        text-align: center;
+        margin-left: calc(50% - 60px);
+        margin-right: auto;
+        margin-top: -60px;
+        opacity: 1;
+        z-index: 1;
+    }
+    
+    .imagenRecuadro .line1 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: .75em;
+        margin-bottom: 1.5em;
+        width: 302px;
+        height: 0px;
+        border: 1px solid #A1B5FF;
+        opacity: 1;
+    }
+    
+    .imagenRecuadro h2 {
+        font-family: 'NunitoSans-ExtraBold';
+        line-height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        text-align: center;
+        width: 240px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .imagenRecuadro h3 {
+        font-family: 'NunitoSans-Bold';
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        text-align: center;
+        color: #A1B5FF;
+        letter-spacing: -0.55px;
+        opacity: 1;
+    }
+    
+    .imagenRecuadro .boxRecuadro {
+        margin-top: 1.1em;
+        margin-bottom: 1.1em;
+        width: 302px;
+        height: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFFFFF;
+        opacity: 1!important;
+    }
+    
+    .imagenRecuadro .boxRecuadro {
+        font-family: 'NunitoSans-Bold';
+        padding-top: 1.2em;
+        color: #0D2784;
+        text-align: center;
+        letter-spacing: -0.23px;
+        font-size: 15px;
+        opacity: 1;
+    }
+    
+    .boxRecuadro:hover,
+    .boxRecuadro2:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    
+    .imagenRecuadro .boxRecuadro:active {
+        transform: scale(1);
+    }
+    
+    .imagenRecuadro h4 {
+        font-family: 'NunitoSans-Bold';
+        color: #A1B5FF;
+        text-transform: uppercase;
+        width: 290px;
+        height: 19px;
+        font-size: 13px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 1;
+    }
+    
+    #textoHeader {
+        max-width: 100vw;
+        margin-top: -20px;
+        padding: 0px;
+        background-image: url('../assets/Grupo 55.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 60vw;
+    }
+    
+    #textoHeader .row {
+        padding-top: 520px;
+    }
+    
+    #textoHeader .cuadroTextoHeader {
+        text-align: left;
+        margin-left: 162px;
+        margin-right: 5%;
+        opacity: 1;
+    }
+    
+    #textoHeader h2 {
+        font-family: 'NunitoSans-ExtraBold';
+        color: #FFFFFF;
+        font-size: 35px;
+        opacity: 1;
+    }
+    
+    #textoHeader h3 {
+        font-family: 'NunitoSans-Regular';
+        color: #FFFFFF;
+        font-size: 16px;
+        opacity: 1;
+    }
+    
+    header {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #section1 {
+        margin-bottom: 9em;
+    }
+    
+    #section1 .container {
+        width: 100%;
+    }
+    
+    #section1 .cuadroTexto {
+        padding-top: 6em;
+        margin-left: 15%;
+        min-width: 520px;
+    }
+    
+    #section1 .cuadroTexto h2 {
+        font-family: 'NunitoSans-ExtraBold';
+        font-size: 28px;
+        color: #0D2784;
+    }
+    
+    #section1 .cuadroTexto p {
+        margin-top: 1em;
+    }
+    
+    #section1 .cuadroImagen {
+        margin-top: 4em;
+        margin-left: 15%;
+        background-color: #A1B5FF;
+        width: 526px;
+        height: 389px;
+    }
+    
+    #section1 img {
+        margin-left: calc(50% - 195px / 2);
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    #section1 h2 {
+        font-family: 'NunitoSans-ExtraBold';
+        font-size: 22px;
+        text-align: center;
+        color: #0D2784;
+    }
+    
+    #section1 h3 {
+        font-family: 'NunitoSans-SemiBold';
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 19px;
+        color: #0D2784;
+        width: 383px;
+        text-align: center;
+    }
+    
+    #section2 {
+        max-width: 100vw;
+        margin-top: -20px;
+        padding: 0px;
+        background-image: url('../assets/Grupo 56.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 60vw;
+    }
+    
+    #section2 .cuadroTexto1 {
+        padding-top: 60%;
+        margin-left: 15%;
+        min-width: 520px;
+    }
+    
+    #section2 h2 {
+        font-family: 'NunitoSans-ExtraBold';
+        font-size: 29px;
+        color: #FFFFFF;
+        width: 526px;
+    }
+    
+    #section2 .cuadroTexto2 {
+        margin-top: 1.5em;
+        padding: 1.5em;
+        padding-top: 2em;
+        margin-left: 15%;
+        min-width: 520px;
+        background-color: #A1B5FF;
+        width: 530px;
+        height: 145px;
+    }
+    
+    #section2 h3 {
+        font-size: 20px;
+        font-family: 'NunitoSans-SemiBold';
+        color: #0D2784;
+        text-align: center;
+    }
+    
+    #section2 .cuadroTexto3 {
+        margin-left: 15%;
+        width: 533px;
+        margin-top: 1em;
+    }
+    
+    #section2 p {
+        font-family: 'NunitoSans-SemiBold';
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    
+    #section3 {
+        /*display: none;*/
+        max-width: 100%;
+        padding: 0px;
+        width: 100%;
+    }
+    
+    #section3 .cuadroTexto {
+        padding-top: 5em;
+        margin-left: 15%;
+        min-width: 520px;
+    }
+    
+    #section3 h2 {
+        font-family: 'NunitoSans-ExtraBold';
+        font-size: 25px;
+        color: #0D2784;
+        padding-top: .7em;
+    }
+    
+    #section3 p {
+        font-family: 'NunitoSans-SemiBold';
+        color: #606060;
+    }
+    
+    #section3 p:nth-child(9),
+    #section3 p:nth-child(11),
+    #section3 p:nth-child(13),
+    #section3 p:nth-child(15) {
+        margin-top: -.6em;
+    }
+    
+    #section3 h2:nth-child(8),
+    #section3 h2:nth-child(10),
+    #section3 h2:nth-child(12),
+    #section3 h2:nth-child(14) {
+        font-size: 1.25em;
+    }
+    
+    #section3 li {
+        margin-top: -1em;
+        list-style: none;
+        color: #0D2784;
+    }
+    
+    #section3 li:before {
+        font-size: 2em;
+        content: "\2022";
+        color: #83DCEB;
+        padding-right: .5em;
+        padding-top: 0em;
+        padding-bottom: -1em;
+        margin-left: -1em;
+        transform: scale(2);
+    }
+    
+    #section4 {
+        overflow: hidden;
+        margin-top: 5em;
+        max-width: 100%;
+        padding: 0px;
+        background-image: url('../assets/Grupo 57.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 60vw;
+    }
+    
+    #section4 .cuadroTexto {
+        margin-top: 330px;
+    }
+    
+    #section4 p {
+        color: #FFFFFF;
+        text-align: center;
+    }
+    
+    #section4 h2 {
+        margin-top: -1em;
+        color: #FFFFFF;
+        font-family: 'NunitoSans-ExtraBold';
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    #section4 h3 {
+        color: #FFFFFF;
+        font-family: 'NunitoSans-Regular';
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    #section4 h2 strong {
+        color: #FFFFFF;
+        font-family: 'NunitoSans-ExtraBold';
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    #section4 .boxRecuadro2 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 190px;
+        height: 39px;
+        background: #FFFFFF;
+    }
+    
+    #section4 .boxRecuadro2 p {
+        font-family: 'NunitoSans-ExtraBold';
+        font-size: 14px;
+        padding-top: .6em;
+        color: #0D2784;
+    }
+    
+    footer {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: 151px;
+        background-color: #0D2784;
+    }
+    
+    footer img {
+        vertical-align: middle;
+        padding-top: calc(151px / 2 - 24px);
+    }
+    
+    footer p {
+        color: #A1B5FF;
+        text-align: center;
+        font-size: 13px;
+        padding-top: calc(151px / 2 - .5em);
+    }
+    /**  Pag Formulario **/
+    
+    .part1Form {
+        min-height: 750px;
+    }
+    
+    .part2Form,
+    .part3Form,
+    .part4Form,
+    .finalForm {
+        display: none;
+        min-height: 750px;
+    }
+    
+    header {
+        background: transparent linear-gradient(180deg, #173087 0%, #283CC6 100%) 0% 0% no-repeat padding-box;
+    }
+    
+    header #pagFormulario .row {
+        width: 100%;
+        opacity: 1;
+        height: 600px;
+    }
+    
+    .logoFondo {
+        margin-top: -580px;
+        margin-left: calc( 100vw - 664px);
+        position: absolute;
+        background-image: url('../assets/Grupo 48.svg');
+        background-repeat: no-repeat;
+        background-size: 864px 864px;
+        height: 864px;
+        width: 647px;
+        z-index: 1;
+        opacity: .96;
+    }
+    
+    #menuSurvey .socialItem {
+        z-index: 10;
+    }
+    
+    #menuSurvey {
+        z-index: 10;
+    }
+    
+    #menuSurvey img:hover {
+        cursor: pointer;
+    }
+    
+    .part1Form {
+        z-index: 10;
+    }
+    
+    header {
+        overflow: hidden;
+    }
+    
+    .line2 {
+        position: relative;
+        z-index: 10;
+        width: 139px;
+        height: 0px;
+        border: 1px solid #1DFF2D;
+        z-index: 10;
+    }
+    
+    #cuerpoSurvey .question {
+        z-index: 10;
+    }
+    
+    #cuerpoSurvey h1 {
+        text-align: center;
+        letter-spacing: 2.83px;
+        color: #FFFFFF;
+        font-size: 55px;
+        font-family: 'NunitoSans-ExtraBold';
+    }
+    
+    #cuerpoSurvey h2 {
+        position: relative;
+        z-index: 10;
+        text-align: left;
+        letter-spacing: -0.8px;
+        color: #FFFFFF;
+        font-size: 30px;
+        font-family: 'NunitoSans-ExtraBold';
+    }
+    
+    #cuerpoSurvey h3 {
+        margin-top: -4px;
+        text-align: left;
+        letter-spacing: -0.51px;
+        color: #A1B5FF;
+        font-size: 22px;
+    }
+    
+    #cuerpoSurvey p {
+        text-align: left;
+        color: #FFFFFF;
+    }
+    
+    .indexForm {
+        position: relative;
+        z-index: 10;
+        text-align: left;
+        letter-spacing: -0.35px;
+        color: #A1B5FF;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .option {
+        background-color: yellow;
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        text-align: center;
+        width: 435px;
+        height: 45px;
+        background: #A1B5FF;
+        color: #0d2784;
+        font-size: 22px;
+        font-family: 'NunitoSans-SemiBold';
+        padding-top: .3em;
+        z-index: 10;
+    }
+    
+    .inputForm {
+        padding-left: 1em;
+        text-align: left;
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: -14px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        width: 435px;
+        height: 45px;
+        background: #A1B5FF;
+        color: #0d2784;
+        font-size: 22px;
+        font-family: 'NunitoSans-SemiBold';
+        padding-top: .3em;
+        z-index: 10;
+        border: 1px solid;
+    }
+    
+    .inputForm::placeholder {
+        color: #0d2784;
+    }
+    
+    #age {
+        width: 5em;
+    }
+    
+    .part4Form .row {
+        display: -webkit-inline-box;
+        width: 435px;
+    }
+    
+    .form-group.radio_input {
+        text-align: right;
+        margin-left: 1em;
+        margin-top: -17px;
+    }
+    
+    input.genero {
+        position: absolute;
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 28px;
+        height: 28px;
+        margin-left: -35px;
+        margin-right: 10px;
+        margin-top: 2px;
+        padding-top: 61px;
+    }
+    
+    .form-group.radio_input label {
+        font-size: 22px;
+        font-family: 'NunitoSans-SemiBold';
+        padding-left: 3em;
+        padding-right: 1em;
+        width: 28px;
+        height: 28px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: -10px;
+        color: white;
+    }
+    
+    input[type="checkbox"] {
+        height: 30px;
+        width: 30px;
+        margin-top: 20px;
+        margin-right: 1em;
+    }
+    
+    .lblCheckbox {
+        margin-top: 0px;
+        font-size: 18px;
+        color: white;
+    }
+    
+    .lblCheckbox a {
+        /*text-decoration: none;*/
+        color: white;
+    }
+    
+    .lblCheckbox strong {}
+    
+    .checkmark2 {
+        top: 9px;
+        left: 21px;
+        height: 28px;
+        width: 28px;
+        background-color: #eee!important;
+        border-radius: 50%;
+    }
+    
+    .option input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+    
+    .checkmark {
+        position: absolute;
+        top: 9px;
+        left: 21px;
+        height: 28px;
+        width: 28px;
+        background-color: #eee!important;
+        border-radius: 50%;
+    }
+    /* On mouse-over, add a grey background color */
+    
+    .option:hover input~.checkmark {
+        background-color: #ccc;
+    }
+    /* When the radio button is checked, add a blue background */
+    
+    .option input:checked~.checkmark {
+        background-color: #2196F3;
+    }
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+    /* Show the indicator (dot/circle) when checked */
+    
+    .option input:checked~.checkmark:after {
+        display: block;
+    }
+    /* Style the indicator (dot/circle) */
+    
+    .option .checkmark:after {
+        top: 10px;
+        left: 10px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: grey;
+    }
+    /** On mouse-over, add a background color **/
+    /*.option label {
+        color: #0D2784;
+        font-size: 22px;
+        font-family: 'NunitoSans-SemiBold';
+        text-align: center;
+        background-color: yellow;
+        width: 90%;
+    }*/
+    
+    #cuerpoSurvey .row .row {
+        position: relative;
+        z-index: 10;
+        width: 370px;
+        margin-left: 0px;
+    }
+    
+    #menuSurvey {
+        padding-top: 65px;
+        margin-bottom: 150px;
+    }
+    
+    #menuSurvey .socialItem {
+        margin-left: 15px;
+    }
+    
+    .form h2 {
+        font-family: 'NunitoSans-SemiBold';
+        font-size: 26px;
+        text-align: left;
+        margin-top: 4px;
+        margin-bottom: 20px;
+    }
+    
+    .cuadroTexto {
+        position: relative;
+        z-index: 10;
+        width: 520px;
+        margin-bottom: 5em;
+    }
+    
+    .cuadroTexto h2 {
+        margin-top: 10px;
+    }
+    
+    .rowBtn {
+        text-align: right;
+        margin-left: auto;
+        margin-right: 0px;
+        width: 435px!important;
+        align-items: right;
+    }
+    
+    .buttonPreview,
+    .buttonSubmit,
+    .buttonNext {
+        padding-top: 10px;
+        width: 122px;
+        height: 50px;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 1em;
+        margin-bottom: 200px;
+        margin-left: 15px;
+        z-index: 10;
+    }
+    
+    .buttonPreview:hover,
+    .buttonSubmit:hover,
+    .buttonNext:hover {
+        cursor: pointer;
+    }
+    
+    .buttonPreview {
+        background-color: #0D2784;
+        color: #FFFFFF;
+    }
+    
+    .buttonNext,
+    .buttonSubmit {
+        background-color: #FFFFFF;
+        color: #0d2784;
+    }
+    /** Responsive **/
+    
+    @media (max-width:1200px) {
+        .onlyMobile {
+            display: inline-flex;
+        }
+        .onlyScreen {
+            display: none;
+        }
+        header {
+            display: block;
+        }
+        header .row {
+            width: 100%;
+            /*background-color: red;*/
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px;
+        }
+        .imagenRecuadro {
+            margin-left: auto;
+            margin-right: auto;
+            position: static;
+        }
+        header .row {
+            width: 100%;
+            max-width: 100%;
+        }
+        #recuadro {
+            margin-top: -100px;
+            height: 700px;
+            width: 100vw;
+            background-color: white;
+        }
+        .container {
+            max-width: 100vw;
+        }
+        .cuadroTextoHeader {
+            margin-left: auto!important;
+            margin-right: auto!important;
+            margin-top: -283px;
+            text-align: center;
+        }
+        .cuadroTextoHeader h2,
+        .cuadroTextoHeader h3 {
+            text-align: center;
+        }
+        #section1 .cuadroTexto {
+            margin-left: auto!important;
+            margin-right: auto!important;
+            text-align: center;
+            width: 90%;
+        }
+        #section1 .cuadroImagen {
+            margin-left: auto!important;
+            margin-right: auto!important;
+        }
+        #section2 .cuadroTexto1 {
+            padding-top: 15%;
+            margin-left: auto!important;
+            margin-right: auto!important;
+            text-align: center;
+        }
+        #section2 h2,
+        #section2 h3 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #section2 .cuadroTexto2,
+        #section2 .cuadroTexto3 {
+            margin-left: auto!important;
+            margin-right: auto!important;
+            text-align: center;
+        }
+        #section3 .cuadroTexto {
+            margin-left: auto!important;
+            margin-right: auto!important;
+            width: 90%;
+        }
+        #section4 .cuadroTexto {
+            margin-left: auto!important;
+            margin-right: auto!important;
+            margin-top: 10%;
+        }
+        footer .row {
+            text-align: center;
+            height: 100px;
+        }
+        footer {
+            height: 200px;
+            overflow: hidden;
+        }
+        footer p {
+            padding: 4em;
+        }
+        #section3 .boxRecuadro,
+        #section1 .boxRecuadro {
+            margin-top: 5em;
+            text-align: center;
+            display: block;
+            /*margin-top: 1.1em;*/
+            margin-bottom: 1.1em;
+            width: 302px;
+            height: 55px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #0D2784;
+            opacity: 1!important;
+        }
+        #section3 .boxRecuadro p,
+        #section1 .boxRecuadro p {
+            padding-top: 1em;
+            color: #FFFFFF;
+        }
+        #pagFormulario {}
+        #cuerpoSurvey .row {
+            width: 90%;
+            max-width: 460px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #cuerpoSurvey p {
+            max-width: 460px;
+        }
+    }
